@@ -30,6 +30,11 @@ set helplang=cn             "帮助系统设置为中文
 set foldmethod=syntax       "代码折叠
 "}}
 
+set numberwidth=2          "行号栏的宽度
+"set columns=135           "初始窗口的宽度
+""set lines=50              "初始窗口的高度
+"winpos 620 45             "初始窗口的位置
+
 
 
 "Vundle Settings {
@@ -37,10 +42,10 @@ set foldmethod=syntax       "代码折叠
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-
+"插件列表
 Bundle 'gmarik/vundle'
 Bundle "mattn/emmet-vim"
-
+:
 
 "}
 
